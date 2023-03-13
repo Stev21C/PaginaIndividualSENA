@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Bancoop</title>
+</head>
+<body>
+    <header class="header">
+        <div class="banner">
+            <div class="text">
+                <h1>BANCOOP</h1>
+                <h3>Te ayuda a alcanzar tus metas</h3>
+            </div>
+            <div class="logo">
+                <img src="img/logo.png" height="100px" width="120px" id="logo">
+            </div> 
+        </div>
+
+        <nav class="navbar">
+            <a href="#">Creditos</a>
+            <a href="#">Leasing</a>
+            <a href="#">Ahorros</a>
+            <a href="#">Servicio al cliente</a>
+        </nav>
+    </header>
+
+    <div class="info">
+
+        <aside class="aside">
+            <h2>Ingresa a tu cuenta</h2>
+            <form action="">
+                <label>Cuenta: <input type="number" name="cuenta"></label>
+                <br>
+                <label for="tipo">Tipo:                            
+                    <select id="tipo" name="tipo">
+                        <option value="ahorros">Ahorros</option>
+                        <option value="corriente">Corriente</option>
+                        <option value="nomina">Nomina</option>
+                    </select>
+                </label>
+                <br>
+                <label>Clave: <input type="password" name="clave"></label>
+                <br>
+                <button class="btn">Ingresar</button>
+            </form>
+
+            <h2 class="crear">Crea tu cuenta</h2>
+            
+            
+            <div class="opcion"> 
+                <a href="#IrVentanaFlotante">
+                    <button class="btn-crear">Registrese</button>
+                </a>
+            </div>
+                
+            <div id="IrVentanaFlotante" class="modal">
+                <div class="ventana">
+                    
+                    <h2>Registro <a href="#" style='text-decoration:none;'>X</a></h2>
+                    <form action="" method="get">
+                        <fieldset>
+                            <legend>Cree su cuenta</legend>
+                            <label for="nombre">Nombre</label><input type="text" placeholder="Digite su nombre" required>
+                            <br>
+                            <label for="apellido">Apellido</label><input type="text" placeholder="Digite su apellido" required>
+                            <br>
+                            <label for="usuario">Usuario</label><input type="text" placeholder="Cree su usuario" required>
+                            <br>
+                            <label for="contraseña">Contraseña</label><input type="password" placeholder="Digite su contraseaña" required>
+                            <br>
+                            <label for="ciudad">Ciudad</label>
+                                <select name="ciudades">
+                                    <optgroup label="America">
+                                        <option value="cal">Cali</option>
+                                        <option value="mde">Medellin</option>
+                                        <option value="bog">Bogota</option>
+                                    </optgroup>
+                                    <optgroup label="Europa">
+                                        <option value="par">Paris</option>
+                                        <option value="bac">Barcelona</option>
+                                    </optgroup>
+                                    
+                                </select>
+                            <br>                        
+                        </fieldset>
+                        <input type="submit" value="Registrarse">
+                        <input type="reset" value="Limpiar">
+                    </form>
+                </div>  
+            </div>
+
+
+        </aside>
+
+        <article class="article">
+            <section class="section">
+                <h2>Solicitar nuestros productos</h2>
+                <div class="preview">
+                    <img src="img/cards.png" height="130px" width="130px" alt="Imagen Tarjeta credito">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type 
+                    specimen book.
+                    </p>
+                </div>  
+                <div class="btn-mas"><a href="#">Saber mas</a></div>      
+            </section>
+
+            <section class="section">
+                <h2>Ahorro Estudiantil</h2>
+                <div class="preview">
+                    <img src="img/ahorro.png" height="130px" width="170px" alt="Imagen Tarjeta credito">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type 
+                        specimen book.
+                    </p>
+                </div>  
+                <div class="btn-mas"><a href="#">Saber mas</a></div> 
+            </section>
+
+            <section class="section">
+                <h2>Solicitar nuestros productos</h2>
+                <div class="preview">
+                    <img src="img/cards.png" height="130px" width="130px" alt="Imagen Tarjeta credito">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type 
+                    specimen book.
+                    </p>
+                </div>  
+                <div class="btn-mas"><a href="#">Saber mas</a></div>      
+            </section>
+
+            <section class="section">
+                <h2>Solicitar nuestros productos</h2>
+                <div class="preview">
+                    <img src="img/cards.png" height="130px" width="130px" alt="Imagen Tarjeta credito">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type 
+                    specimen book.
+                    </p>
+                </div>  
+                <div class="btn-mas"><a href="#">Saber mas</a></div>      
+            </section>
+
+        </article>
+    </div>
+
+    <footter class="footer">
+        <p>Contactenos</p>
+        <p>Linea gratuita: 01 8000 6565 0566</p>
+        <p>Banco entidad financiera - Derechos reservados</p>
+    </footter>
+    
+</body>
+</html>
